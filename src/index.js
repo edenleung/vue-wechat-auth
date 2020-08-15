@@ -31,8 +31,10 @@ class WechatAuthPlugin {
   callback() {}
 }
 
-export default {
+const VueWechatAuth = {
   install (Vue, Options) {
     Vue.prototype.$wechatAuth = new WechatAuthPlugin(Options)
   }
 }
+
+export default VueWechatAuth

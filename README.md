@@ -1,18 +1,24 @@
 # vue-wechat-auth
 
-> wehcat oauth
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
+## 安装
+```
+$ yarn add @edenleung/vue-wechat-auth --registry=https://npm.pkg.github.com/download/@edenleung
+// or
+$ npm install @edenleung/vue-wechat-auth --registry=https://npm.pkg.github.com/download/@edenleung
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 使用
+
+`main.js`
+
+```Vue
+
+import VueWechatAuth from '@edenleung/vue-wechat-auth'
+
+Vue.use(WechatAuth , {
+  app_id: WECHAT_APPID,
+  scope: 'snsapi_userinfo',
+  redirect_uri: 'http://example/wechat/callback'
+})
+
+```
