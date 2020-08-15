@@ -1,7 +1,7 @@
 {
   "name": "@edenleung/vue-wechat-auth",
   "description": "vue wechat oauth package",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "xiaodi <liangjinbiao@live.com>",
   "license": "MIT",
   "main": "dist/vue-wechat-auth.js",

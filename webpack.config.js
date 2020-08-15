@@ -6,7 +6,10 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'vue-wechat-auth.js'
+    filename: 'index.js',
+    library: '@edenleung/vue-wechat-auth',
+    libraryTarget: 'umd',
+    umdNamedDefine: true
   },
   module: {
     rules: [
