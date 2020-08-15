@@ -2,9 +2,11 @@
 
 ## 安装
 ```
-$ yarn add @edenleung/vue-wechat-auth --registry=https://npm.pkg.github.com/download/@edenleung
-// or
-$ npm install @edenleung/vue-wechat-auth --registry=https://npm.pkg.github.com/download/@edenleung
+$ yarn add @edenleung/vue-wechat-auth --registry=https://npm.pkg.github.com
+
+// OR
+
+$ npm install @edenleung/vue-wechat-auth --registry=https://npm.pkg.github.com
 ```
 
 ## 使用
